@@ -81,25 +81,45 @@ li#photo:hover span {
 li#photo img:hover {
     cursor: pointer;
 }
-div#infobox {
+/* snow land */
+div#infobox_snow {
     z-index: 10;
-    position: relative;
-    /* bottom: 0px;
-    left: 100px; */
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
     background-color: black;
     border-radius: 10px;
     visibility: hidden;
+    width: 250px;
 }
-div#infobox > * {
-    /* z-index: 10; */
+div#infobox_snow > * {
     color: white;
 }
-div#infobox .exit {
-    /* z-index: 10; */
+div#infobox_snow .exit {
     color: yellow;
     text-align: center;
     cursor: pointer;
 }
+/* wintery road */
+div#infobox_wintery {
+    z-index: 10;
+    position: absolute;
+    bottom: 200px;
+    right: -100px;
+    background-color: black;
+    border-radius: 10px;
+    visibility: hidden;
+    width: 250px;
+}
+div#infobox_wintery > * {
+    color: white;
+}
+div#infobox_wintery .exit {
+    color: yellow;
+    text-align: center;
+    cursor: pointer;
+}
+
 
 
 footer {
