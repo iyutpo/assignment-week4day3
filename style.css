@@ -85,7 +85,7 @@ li#photo img:hover {
 div#infobox_snow {
     z-index: 10;
     position: absolute;
-    bottom: 0px;
+    bottom: -10px;
     left: 500px;
     background-color: black;
     border-radius: 10px;
